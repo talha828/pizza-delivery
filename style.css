@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image:url(p2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+.main_heading{
+    margin: 15px;
+    height: 30px;
+    width: 250px;
+    padding: 10px;
+    font-family:'Josefin Sans' ;
+    font-size: 24px;
+}
+.emptybox{
+    width:300px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 30px;
+    padding-left: 80px;
+}
+a{
+    text-decoration: none;
+    padding: 15px ;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    margin: 5px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: brown;
+    border: none;
+
+}
+.line{
+    width: 100%;
+    background-color: brown;
+    height: 2px;
+    border-radius: 10px;
+   border: none;
+}
+.main_contant{
+    
+    margin-top: 30px;
+    width: 1117px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    margin-left: 83px;
+    height: 60vh;
+    padding: 20px;
+}
+.big_heading{
+    font-size: 35px;
+    font-family:'Josefin Sans'  ;
+}
+.para_one{
+    width: 1000px;
+    font-family: 'Indie Flower', cursive;
+    padding:40px ;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.big_button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 270px;
+    margin-top: 80px;
+}
+.anchor_tag6{
+    
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 0px;
+    font-size: 20px;
+    border: none;
+    background-color: brown;
+}
+.anchor_tag6:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.anchor_tag7{
+    border: 1px solid white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 0px;
+    font-size: 20px;
+}
